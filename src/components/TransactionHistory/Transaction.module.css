@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'),
+         url('../../assets/fonts/lato-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../../assets/fonts/lato-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+.transactionHistory {
+    width: 875px;
+    height: 1000px;
+    border: 1px solid rgb(117, 115, 115);
+    border-radius: 5px;
+}
+
+.thead {
+    height: 50px;
+    background-color: #00bcd5;
+    color: #fff;
+}
+
+.tbody {
+    text-align: center;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #6e7275;
+    line-height: 1.2;
+}
+
+.trOdd {
+    background-color: #ecf1f4;
+}
+
+.trEven {
+    background-color: #fff;
+}
